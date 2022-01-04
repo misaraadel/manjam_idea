@@ -1218,7 +1218,7 @@ header .content p {
   color: #f8f8f8;
   font-size: 15px;
   font-weight: 500;
-  line-height: 2.5rem;
+  line-height: 2rem;
   margin-bottom: 40px;
   text-align: justify;
 }
@@ -1420,6 +1420,83 @@ header .image-content img {
      object-fit: contain;
 }
 
+.projects {
+  padding-top: 50px;
+  width: 100%;
+  position: relative;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.projects::After, .projects::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-image: url("../images/top_layer.svg");
+  z-index: -1;
+  left: 0;
+}
+
+.projects::after {
+  top: 0;
+  background-position: top;
+}
+
+.projects::before {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  bottom: 0px !important;
+  background-position: bottom;
+}
+
+.projects .image-content {
+  width: 100%;
+  height: 400px;
+}
+
+.projects .image-content img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.partner {
+  width: 100%;
+  padding: 100px 0px 50px 0px !important;
+  position: relative;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.partner .owl-stage {
+  padding: 20px 0px;
+}
+
+.partner .item {
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
+          box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
+  border-radius: 10px;
+  margin: 0px 10px;
+}
+
+.partner .item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
 .contact {
   width: 100%;
   padding: 40px 0px;
@@ -1615,15 +1692,21 @@ header .image-content img {
     -ms-flex-line-pack: center;
         align-content: center;
   }
+  .navbar {
+    padding: 0px !important;
+  }
+  .navbar.scrolled {
+    padding: 0px !important;
+  }
   .navbar.scrolled .navbar-nav {
-    top: 88px;
+    top: 79px;
   }
   .navbar .hamburger {
     display: block !important;
   }
   .navbar .navbar-nav {
     position: absolute;
-    top: 100px;
+    top: 79px;
     right: -100%;
     -webkit-transition: all .3s linear;
     transition: all .3s linear;

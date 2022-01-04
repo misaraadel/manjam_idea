@@ -30,10 +30,11 @@
     }
 
     .navbar{
-
+        padding: 0px !important;
         &.scrolled{
+            padding: 0px !important;
             .navbar-nav{
-                top: 88px;
+                top: 79px;
             }
         }
 
@@ -43,7 +44,7 @@
 
         .navbar-nav{
             position: absolute;
-            top: 100px;
+            top: 79px;
             right: -100%;
             transition: all .3s linear;
             width: 100%;
