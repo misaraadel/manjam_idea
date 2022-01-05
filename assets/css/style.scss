@@ -41,7 +41,6 @@ header{
             color: #f8f8f8;
             font-size: 15px;
             font-weight: 500;
-            line-height: 2rem;
             margin-bottom: 40px;
             text-align: justify;
         }
@@ -110,7 +109,7 @@ header{
                 height: 100%;
                 object-position: center;
                 object-fit: contain;
-               filter: invert(63%) sepia(75%) saturate(338%) hue-rotate(142deg) brightness(83%) contrast(90%);
+                filter: invert(63%) sepia(75%) saturate(338%) hue-rotate(142deg) brightness(83%) contrast(90%);
             }
         }
 
@@ -128,7 +127,6 @@ header{
                 color: #808080;
                 font-size: 15px;
                 font-weight: 500;
-                line-height: 2rem;
                 margin: 0px;
             }
         }
@@ -207,7 +205,6 @@ header{
             color: #808080;
             font-size: 15px;
             font-weight: 500;
-            line-height: 2.5rem;
             text-align: justify;
             margin: 20px 0px;
         }

@@ -75,6 +75,10 @@ ul {
   padding: 0px;
 }
 
+p {
+  line-height: 1.5rem;
+}
+
 .owl-theme .owl-dots .owl-dot span {
   width: 20px;
   height: 4px;
@@ -383,7 +387,6 @@ footer .content p {
   color: #888;
   font-size: 15px;
   font-weight: 500;
-  line-height: 2.5rem;
   margin-bottom: 20px;
 }
 
@@ -1218,7 +1221,6 @@ header .content p {
   color: #f8f8f8;
   font-size: 15px;
   font-weight: 500;
-  line-height: 2rem;
   margin-bottom: 40px;
   text-align: justify;
 }
@@ -1320,7 +1322,6 @@ header .image-content img {
   color: #808080;
   font-size: 15px;
   font-weight: 500;
-  line-height: 2rem;
   margin: 0px;
 }
 
@@ -1404,7 +1405,6 @@ header .image-content img {
   color: #808080;
   font-size: 15px;
   font-weight: 500;
-  line-height: 2.5rem;
   text-align: justify;
   margin: 20px 0px;
 }
